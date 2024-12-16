@@ -8,7 +8,7 @@
 # - iOS push notifications for self-hosted servers (to calculate the Firebase poll_request topic)
 # - Matrix Push Gateway (to validate that the pushkey is correct)
 #
-base-url: https://ntfy-q1xa.onrender.com
+
 upstream-base-url: "https://ntfy.sh"
 
 # Listen address for the HTTP & HTTPS web server. If "listen-https" is set, you must also
