@@ -63,9 +63,3 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}-${{ steps.time.outputs.time }}
           labels: ${{ steps.meta.outputs.labels }}
 
-  on:
-  # Trigger the workflow on push or pull request,
-  # but only for the main branch
-  push:
-    branches:
-      - main
